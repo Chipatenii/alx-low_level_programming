@@ -9,6 +9,7 @@
  *
  * Return: the first index where value is located, or -1 if not found
  */
+
 int linear_search(int *array, size_t size, int value)
 {
     if (array == NULL)
